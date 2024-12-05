@@ -1,0 +1,24 @@
+select {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4rem;
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 0 4.5rem 0 2rem;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+select:focus {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+select option {
+    background-color: #555555;
+    color: #fff;
+}

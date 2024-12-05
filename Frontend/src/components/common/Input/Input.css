@@ -1,0 +1,36 @@
+.text,
+.email,
+.password {
+    width: 100%;
+    height: 5rem;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4rem;
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 0 4.5rem 0 2rem;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.text,
+.email,
+.password::placeholder {
+    color: #fff;
+}
+
+.checkbox {
+    accent-color: #fff;
+    margin-right: 0.8rem;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    border: none;
+}
+
+label {
+    font-size: 1.6rem;
+    color: #fff;
+}
